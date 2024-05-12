@@ -11,7 +11,7 @@ router.post("/Pawn", (req, res) => {
     var map_id = req.body.map_id;
 
     // Make the query to check all positions
-    var queryarray = 'SELECT * FROM Tileboard WHERE tbo_tty_id != 3 and tbo_map_id = ' + map_id + ' and ('
+    var queryarray = 'SELECT * FROM tileboard WHERE tbo_tty_id != 3 and tbo_map_id = ' + map_id + ' and ('
     for (var i = 0; i < positions.length; i++){   
         var tile_y = positions[i][1]
         var tile_x = positions[i][0]
@@ -120,7 +120,7 @@ router.post("/Pawn", (req, res) => {
 function movePawnToPosition(req, res, pawn_id, player_id, match_id, valid_final_x_position, valid_final_y_position, original_tbo_id){   
     // This is the new tbo_id that we want to move to(x,y) 
     var newTboID;
-    connection.execute("select tbo_id from Tileboard WHERE tbo_x = ? and tbo_y = ?",
+    connection.execute("select tbo_id from tileboard WHERE tbo_x = ? and tbo_y = ?",
     [valid_final_x_position, valid_final_y_position],
     function (err, rows, fields) {
        newTboID = rows[0].tbo_id;
@@ -128,7 +128,7 @@ function movePawnToPosition(req, res, pawn_id, player_id, match_id, valid_final_
     });
 
     function updatePawnPosition(){
-        connection.execute("update Location SET loc_tbo_id = ? WHERE loc_pawn_id = ? AND loc_tbo_id = ?",
+        connection.execute("update location SET loc_tbo_id = ? WHERE loc_pawn_id = ? AND loc_tbo_id = ?",
         [newTboID, pawn_id, original_tbo_id],
         function (err, rows, fields) {
             if (err){
