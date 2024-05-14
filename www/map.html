@@ -15,6 +15,11 @@
             height: 250px;
             text-align: center;
         }
+        #tilenumbers {
+            text-align: center;
+            margin-top: -350px; /* Adjust as needed to create space between map and image */
+            size-adjust: 50%;
+        }
         </style>
     <script>
         function getPlayerPawns() {
@@ -95,7 +100,10 @@
     </script>
 </head>
 <body style="background-color:#f395ff;">
-    <div style="text-align: center;" id="newMap"></div>
+    <div style="text-align: center" id="newMap"></div>
+    <div id="tilenumbers">
+        <img src="tilenumbers.png" alt="Tile Numbers">
+    </div>
     <div class="legendas">⬛:wall tile<br> ⬜:ground tile<br> 🟦:water tile<br> 😹:p1 mind-cat<br> 🚓:p1 machine-cat<br> 😻:p2 mind-cat <br> 🚗:p2 machine-cat</div>
 </body>
 </html>
