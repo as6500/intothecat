@@ -14,19 +14,18 @@ router.get('/:id', (req, res) => {
             return;
         }
         if (rows.length == 0){
-            res.send("map doesnt exist (only from 1-3 exist)")
+            res.send("map doesnt exist")
         }else{
             res.send(rows);
         }
     });
 });
 
-
 router.get('/match/:matchID/', (req, res) => {
     var matchID = req.params.matchID;
     
     // Execute query to retrieve all rows for the specified match, ordered by player_id
-    connection.execute("SELECT * FROM all_matches_players_pawn_locations WHERE match_id = ? ORDER BY player_id",
+    connection.execute("select * from all_matches_players_pawn_locations where match_id = ? order by player_id",
         [matchID],
         function (err, rows, fields) {
             if (err) {
