@@ -1,0 +1,348 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/arrow.png",
+                "type": "image",
+                "key": "arrow"
+            },
+            {
+                "url": "assets/border.png",
+                "type": "image",
+                "key": "border"
+            },
+            {
+                "url": "assets/buttonbackground.png",
+                "type": "image",
+                "key": "buttonbackground"
+            },
+            {
+                "url": "assets/buttonbackground1.png",
+                "type": "image",
+                "key": "buttonbackground1"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/gamebackground.png",
+                "type": "image",
+                "key": "gamebackground"
+            },
+            {
+                "url": "src/scripts/getPawnToBoard.js",
+                "type": "script",
+                "key": "getPawnToBoard"
+            },
+            {
+                "url": "assets/groundSprite.PNG",
+                "type": "image",
+                "key": "groundSprite"
+            },
+            {
+                "url": "assets/lifecatorange 1.png",
+                "type": "image",
+                "key": "lifecatorange 1"
+            },
+            {
+                "url": "assets/lifecatorange 10.png",
+                "type": "image",
+                "key": "lifecatorange 10"
+            },
+            {
+                "url": "assets/lifecatorange 11.png",
+                "type": "image",
+                "key": "lifecatorange 11"
+            },
+            {
+                "url": "assets/lifecatorange 12.png",
+                "type": "image",
+                "key": "lifecatorange 12"
+            },
+            {
+                "url": "assets/lifecatorange 13.png",
+                "type": "image",
+                "key": "lifecatorange 13"
+            },
+            {
+                "url": "assets/lifecatorange 14.png",
+                "type": "image",
+                "key": "lifecatorange 14"
+            },
+            {
+                "url": "assets/lifecatorange 15.png",
+                "type": "image",
+                "key": "lifecatorange 15"
+            },
+            {
+                "url": "assets/lifecatorange 16.png",
+                "type": "image",
+                "key": "lifecatorange 16"
+            },
+            {
+                "url": "assets/lifecatorange 17.png",
+                "type": "image",
+                "key": "lifecatorange 17"
+            },
+            {
+                "url": "assets/lifecatorange 18.png",
+                "type": "image",
+                "key": "lifecatorange 18"
+            },
+            {
+                "url": "assets/lifecatorange 19.png",
+                "type": "image",
+                "key": "lifecatorange 19"
+            },
+            {
+                "url": "assets/lifecatorange 2.png",
+                "type": "image",
+                "key": "lifecatorange 2"
+            },
+            {
+                "url": "assets/lifecatorange 20.png",
+                "type": "image",
+                "key": "lifecatorange 20"
+            },
+            {
+                "url": "assets/lifecatorange 0.png",
+                "type": "image",
+                "key": "lifecatorange 21"
+            },
+            {
+                "url": "assets/lifecatorange 3.png",
+                "type": "image",
+                "key": "lifecatorange 3"
+            },
+            {
+                "url": "assets/lifecatorange 4.png",
+                "type": "image",
+                "key": "lifecatorange 4"
+            },
+            {
+                "url": "assets/lifecatorange 5.png",
+                "type": "image",
+                "key": "lifecatorange 5"
+            },
+            {
+                "url": "assets/lifecatorange 6 (1).png",
+                "type": "image",
+                "key": "lifecatorange 6"
+            },
+            {
+                "url": "assets/lifecatorange 6 (2).png",
+                "type": "image",
+                "key": "lifecatorange 7"
+            },
+            {
+                "url": "assets/lifecatorange 8.png",
+                "type": "image",
+                "key": "lifecatorange 8"
+            },
+            {
+                "url": "assets/lifecatorange 9.png",
+                "type": "image",
+                "key": "lifecatorange 9"
+            },
+            {
+                "url": "assets/lifecatwhite 1.png",
+                "type": "image",
+                "key": "lifecatwhite 1"
+            },
+            {
+                "url": "assets/lifecatwhite 10.png",
+                "type": "image",
+                "key": "lifecatwhite 10"
+            },
+            {
+                "url": "assets/lifecatwhite 11.png",
+                "type": "image",
+                "key": "lifecatwhite 11"
+            },
+            {
+                "url": "assets/lifecatwhite 12.png",
+                "type": "image",
+                "key": "lifecatwhite 12"
+            },
+            {
+                "url": "assets/lifecatwhite 13.png",
+                "type": "image",
+                "key": "lifecatwhite 13"
+            },
+            {
+                "url": "assets/lifecatwhite 14.png",
+                "type": "image",
+                "key": "lifecatwhite 14"
+            },
+            {
+                "url": "assets/lifecatwhite 15.png",
+                "type": "image",
+                "key": "lifecatwhite 15"
+            },
+            {
+                "url": "assets/lifecatwhite 16.png",
+                "type": "image",
+                "key": "lifecatwhite 16"
+            },
+            {
+                "url": "assets/lifecatwhite 17.png",
+                "type": "image",
+                "key": "lifecatwhite 17"
+            },
+            {
+                "url": "assets/lifecatwhite 18.png",
+                "type": "image",
+                "key": "lifecatwhite 18"
+            },
+            {
+                "url": "assets/lifecatwhite 19.png",
+                "type": "image",
+                "key": "lifecatwhite 19"
+            },
+            {
+                "url": "assets/lifecatwhite 2.png",
+                "type": "image",
+                "key": "lifecatwhite 2"
+            },
+            {
+                "url": "assets/lifecatwhite 20.png",
+                "type": "image",
+                "key": "lifecatwhite 20"
+            },
+            {
+                "url": "assets/lifecatwhite 0.png",
+                "type": "image",
+                "key": "lifecatwhite 21"
+            },
+            {
+                "url": "assets/lifecatwhite 3.png",
+                "type": "image",
+                "key": "lifecatwhite 3"
+            },
+            {
+                "url": "assets/lifecatwhite 4.png",
+                "type": "image",
+                "key": "lifecatwhite 4"
+            },
+            {
+                "url": "assets/lifecatwhite 5.png",
+                "type": "image",
+                "key": "lifecatwhite 5"
+            },
+            {
+                "url": "assets/lifecatwhite 6.png",
+                "type": "image",
+                "key": "lifecatwhite 6"
+            },
+            {
+                "url": "assets/lifecatwhite 7.png",
+                "type": "image",
+                "key": "lifecatwhite 7"
+            },
+            {
+                "url": "assets/lifecatwhite 8.png",
+                "type": "image",
+                "key": "lifecatwhite 8"
+            },
+            {
+                "url": "assets/lifecatwhite 9.png",
+                "type": "image",
+                "key": "lifecatwhite 9"
+            },
+            {
+                "url": "assets/machineCat1.PNG",
+                "type": "image",
+                "key": "machineCat1"
+            },
+            {
+                "url": "assets/machineCat2.PNG",
+                "type": "image",
+                "key": "machineCat2"
+            },
+            {
+                "url": "assets/mindCat1.PNG",
+                "type": "image",
+                "key": "mindCat1"
+            },
+            {
+                "url": "assets/mindCat2.PNG",
+                "type": "image",
+                "key": "mindCat2"
+            },
+            {
+                "url": "src/scenes/PrefabGround.js",
+                "type": "script",
+                "key": "PrefabGround"
+            },
+            {
+                "url": "src/scenes/PrefabMachineCat1.js",
+                "type": "script",
+                "key": "PrefabMachineCat1"
+            },
+            {
+                "url": "src/scenes/PrefabMachineCat2.js",
+                "type": "script",
+                "key": "PrefabMachineCat2"
+            },
+            {
+                "url": "src/scenes/PrefabMindCat1.js",
+                "type": "script",
+                "key": "PrefabMindCat1"
+            },
+            {
+                "url": "src/scenes/PrefabMindCat2.js",
+                "type": "script",
+                "key": "PrefabMindCat2"
+            },
+            {
+                "url": "src/scenes/PrefabMovementButton.js",
+                "type": "script",
+                "key": "PrefabMovementButton"
+            },
+            {
+                "url": "src/scenes/PrefabWall.js",
+                "type": "script",
+                "key": "PrefabWall"
+            },
+            {
+                "url": "src/scenes/PrefabWater.js",
+                "type": "script",
+                "key": "PrefabWater"
+            },
+            {
+                "url": "assets/selectedGroundSprite.png",
+                "type": "image",
+                "key": "selectedGroundSprite"
+            },
+            {
+                "url": "assets/selectedWallSprite.png",
+                "type": "image",
+                "key": "selectedWallSprite"
+            },
+            {
+                "url": "assets/selectedWaterSprite.png",
+                "type": "image",
+                "key": "selectedWaterSprite"
+            },
+            {
+                "url": "assets/wallSprite.PNG",
+                "type": "image",
+                "key": "wallSprite"
+            },
+            {
+                "url": "assets/waterSprite.PNG",
+                "type": "image",
+                "key": "waterSprite"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

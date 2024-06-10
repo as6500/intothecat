@@ -1,0 +1,65 @@
+{
+    "id": "eb26b999-3553-43c1-bc3e-c4d67646a924",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c9bf09be-dcaf-4f00-8e5b-16926a10c4b9",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -18.75,
+            "hitArea.y": -18.75,
+            "hitArea.width": 37.5,
+            "hitArea.height": 37.5,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "3ee41391-c246-44a4-83fe-03c5749c8a44",
+                    "label": "machineCat2Layer1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "machineCat2"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "atTile",
+            "label": "AtTile",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "playerOwner",
+            "label": "PlayerOwner",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

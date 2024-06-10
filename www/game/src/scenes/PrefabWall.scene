@@ -1,0 +1,107 @@
+{
+    "id": "c0d7e266-de25-411e-b44f-893a7e4db6ed",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "b8a42250-d79c-4d32-b302-2aa4a859d36a",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -18.75,
+            "hitArea.y": -18.75,
+            "hitArea.width": 37.5,
+            "hitArea.height": 37.5,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8deb154b-2648-4974-a44b-ce2996c30bb6",
+                    "label": "wallSpriteLayer1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "wallSprite"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015
+                },
+                {
+                    "type": "Image",
+                    "id": "9ed4abab-911a-47c2-b02a-d71cc2fe2720",
+                    "label": "border",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "border"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "tileID",
+            "label": "TileID",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "tileX",
+            "label": "TileX",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "tileY",
+            "label": "TileY",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "selected",
+            "label": "Selected",
+            "tooltip": "",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "tileType",
+            "label": "TileType",
+            "tooltip": "",
+            "defValue": "wall",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "id": "16766606-d402-4bc9-ac48-5d557d294479",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7d750672-dac5-42ca-adf8-778317026551",
+            "label": "container_1",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -18.75,
+            "hitArea.y": -18.75,
+            "hitArea.width": 37.5,
+            "hitArea.height": 37.5,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "ace11d04-0eec-48af-a1e4-4564b6ac6bf0",
+                    "label": "waterSpriteLayer1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "waterSprite"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015
+                },
+                {
+                    "type": "Image",
+                    "id": "5f3be8c5-2f96-4c01-acd3-5287a0c24d50",
+                    "label": "border",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "border"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "tileID",
+            "label": "TileID",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "tileX",
+            "label": "TileX",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "tileY",
+            "label": "TileY",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "selected",
+            "label": "Selected",
+            "tooltip": "",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "tileType",
+            "label": "TileType",
+            "tooltip": "",
+            "defValue": "water",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "id": "19cc2b08-137a-4718-8274-2ede9386a273",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "55400239-e1d2-45fa-877d-8793e9fefa3a",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "b6e08d72-0e70-4071-909c-9c0924d25696",
+                    "label": "machineCat1Layer1",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "machineCat1"
+                    },
+                    "scaleX": 0.015,
+                    "scaleY": 0.015
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "atTile",
+            "label": "AtTile",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "playerOwner",
+            "label": "PlayerOwner",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

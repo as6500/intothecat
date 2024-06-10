@@ -1,0 +1,17 @@
+{
+    "components": [
+        {
+            "name": "Movement",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    }
+}

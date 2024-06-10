@@ -21,6 +21,25 @@ router.post("/LocMove", (req, res) => {
     );
 });
 
+router.post("/LocAttack", (req, res) => {
+    var match_id = req.body.match_id;
+
+    connection.execute("update location l inner join playermatch pm on l.loc_pm_id = pm.pm_id SET l.loc_attacked = 0 where pm.pm_mat_id = ?",
+        [match_id],
+        function (err, result) {
+            if (err) {
+                res.send(err);
+                return;
+            }
+            if (result.affectedRows === 0) {
+                res.send("match does not exist");
+                return;
+            }
+            res.send("reset the attack bd!");
+        }
+    );
+});
+
 
 router.post("/turns1", (req, res) => {
  

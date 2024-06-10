@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into The Cat Login</title>
+    <link rel="icon" type="image/x-icon" href="./img/Logocat.PNG">
+    <link rel="stylesheet" href="./style/main.css">
+    <script src="./scripts/myscripts.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#instructions">📖 Instructions</a>
+        <a href="index.html#about">About</a>
+        <div id ="navbarright">
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+    <div class="container">
+        <span id="title">Login</span><br/><br/>
+        <input type="text" name="username" id="username" placeholder="Username"><br/>
+        <input type="password" name="password" id="password" placeholder="Password"><br/>
+        <input type="button" onclick="login()" value="Login">
+        <br>
+        <a href="http://localhost:3000/register.html" target="_blank">Don't have an account?</a>
+        <br/>
+        <div id="message"></div>
+    </div>
+</body>
+</html>
