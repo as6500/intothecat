@@ -13,7 +13,7 @@ const game = require('./api/game')
 const create = require ('./api/lobby')
 const map = require('./api/map1')
 const movement = require('./api/movement1')
-const resets = require('./api/resets')
+const resets = require('./api/resets1')
 const views = require ('./api/views')
 
 
