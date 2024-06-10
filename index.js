@@ -11,8 +11,8 @@ const connection = require('./database');
 const attacks = require('./api/attacks')
 const game = require('./api/game')
 const create = require ('./api/lobby')
-const map = require('./api/map')
-const movement = require('./api/movement')
+const map = require('./api/map1')
+const movement = require('./api/movement1')
 const resets = require('./api/resets')
 const views = require ('./api/views')
 
