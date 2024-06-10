@@ -12,10 +12,10 @@ const mysql = require('mysql2');
 //filess database
 
 const connection = mysql.createConnection({
-    host: "f40.h.filess.io",
-    user: "intothecat_furniture",
-    password: "5e56a8a481de530f4481bcae6fc9b178dea2b46d",
-    database: "intothecat_furniture",
+    host: "kye.h.filess.io",
+    user: "intothecat_yourcolumn",
+    password: "36b4d8c7fd3fd728b5204a529155146566b0c519",
+    database: "intothecat_yourcolumn",
     port: 3307,
 });
 
