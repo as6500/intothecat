@@ -14,7 +14,7 @@ const create = require ('./api/lobby')
 const map = require('./api/map1')
 const movement = require('./api/movement1')
 const resets = require('./api/resets1')
-const views = require ('./api/views')
+const views = require ('./api/views1')
 
 
 const serverPort = 3000;
