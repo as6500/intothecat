@@ -8,13 +8,13 @@ const session = require('express-session');
 
 const connection = require('./database');
 
-const attacks = require('./API/attacks')
-const game = require('./API/game')
-const create = require ('./API/lobby')
-const map = require('./API/map')
-const movement = require('./API/movement')
-const resets = require('./API/resets')
-const views = require ('./API/views')
+const attacks = require('./api/attacks')
+const game = require('./api/game')
+const create = require ('./api/lobby')
+const map = require('./api/map')
+const movement = require('./api/movement')
+const resets = require('./api/resets')
+const views = require ('./api/views')
 
 
 const serverPort = 3000;
